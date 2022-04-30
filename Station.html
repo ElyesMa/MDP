@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Station.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/js/Station.js"></script>
+    <title>Sté MDP - Atelier</title>
+</head> 
+
+<body>
+    <nav id="nav" class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+             <ul class="nav navbar-nav">
+              <li class="Menu"><a href="/Menu.html">Menu</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle Menu" data-toggle="dropdown" href="/">Atelier<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a id="Lien" href="/About US.html">A propos</a></li>
+                  <li><a id="Lien" href="/Shop.html">Magasin</a></li>
+                  <li><a id="Lien" href="/Contacts.html">Contacts</a></li>
+                </ul>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+    </nav>
+    
+    
+      <section class="topofpage">
+        <h1 id="Bienvenue"></h1>
+        <div id="hide">0</div>
+        <img id="Logo1" src="/Images/topage/logo.png" onmouseover="Move(1)">
+        <img id="Logo2" src="/Images/topage/bmw.png" >
+        <img id="Logo3" src="/Images/topage/mercedes.png">
+       
+    </section>
+    
+    
+</section>
+    <div class="wrapper">
+        <div class="fixed one"></div>
+            <div class="scroll">
+                <h3>
+                Gardez votre véhicule en bon état de marche grâce à un entretien régulier et à des réparations en temps opportun
+                </h3>
+            </div> 
+
+        <div class="fixed two"></div>
+            <div class="scroll">
+                <h3> 
+                    Notre équipe de professionnels vous offre un service fiable. Vous pouvez compter sur nous pour assurer le bon fonctionnement de votre véhicule
+                </h3>
+            </div>
+        <div class="fixed three"></div>
+            <div class="scroll">
+                <h3>                
+                Offre à votre voiture le service qu'elle mérite, fixer un rendez-vous et nous prendrons bien soin de votre véhicule dans notre Atelier    
+                </h3>
+            </div>
+        <div class="fixed for"></div>
+            <div class="scroll">
+                <h3>                
+                Dès qu'une réservation est confirmée, notre équipe prend en charge votre voiture comme prévu
+                </h3>
+            </div>
+        <div class="fixed five"></div>
+        <div class="container">
+            
+            <div class="row">
+                <div col-lg-6 col-md-6 col-sm-4>                  
+                        <div>
+                            <form class="ContactForm" name="ContactForm">
+                                <h4>Merci de remplir le formulaire et choisir la date de votre visite :</h4>       
+                                <img id="logo" src="/Images/Station/logo2.png">
+                                <label>Nom:</label>
+                                <input type="text" name="Name" />
+                                <label>Prénom:</label>
+                                <input type="text" name="FamilyName" />
+                                <label>Adresse:</label>
+                                <input type="text" name="Adress" />
+                                <label>Numéro de téléphone:</label>
+                                <input type="text" name="PhoneNumber" />
+                                <label type="submit">E-mail:</label>
+                                <input type="text" name="Email" placeholder="example@example.com" />
+                                <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
+                                <label>Immatriculation:</label>
+                                <input type="text" name="Carregistrationnumber" placeholder="--- tunis ----" />
+                                <label>date de visite:</label>
+                                <input type="date" name="Visitedate" value=new Date()/>
+                                <label>type du travaux:</label>
+                                <select name="maintenancefields">
+                                    <option value="--Select--">--Select--</option>
+                                    <option value="Oil Change and filers">Oil Change and filers</option>
+                                    <option value="Brake pad change">Brake pad change</option>
+                                    <option value="Diagnostic">Diagnostic</option>
+                                    <option value="Others maintenance">Others</option>
+                                </select>
+                                <div class="button">
+                                <button type="button" class="btn btn-primary" onclick="validateForm()">Envoyer</button>
+                                <button type="button" class="btn btn-primary">Annuler</button>
+                                </div>
+                                <p id="Welcome"></p>
+                            </form>
+                          
+
+                         
+                        </div>
+            
+                </div>
+    
+            </div>
+        </div>
+    
+    </div>
+
+ 
+
+    
+
+
+</body>
+</html>
