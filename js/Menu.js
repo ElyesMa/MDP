@@ -2,11 +2,11 @@ function ChangeSrc() {
    let text =document.getElementById("logo").src;
    let position =text.search(/logo2/i);
    if(position>0){
-      document.getElementById("logo").src ="/Images/Menu/Logo.png";
+      document.getElementById("logo").src ="/MDP/Images/Menu/Logo.png";
    
    }
    else if(position<0){
-      document.getElementById("logo").src ="/Images/Menu/Logo2.png";
+      document.getElementById("logo").src ="/MDP/Images/Menu/Logo2.png";
    }
    
 }
