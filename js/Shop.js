@@ -56,7 +56,7 @@ function showfunction(){
         newDiv.setAttribute('id','Element'+i);
     
         img = document.createElement('img');
-        img.src ="/Images/Shop/Logoshopcart.jpg";
+        img.src ="/MDP/Images/Shop/Logoshopcart.jpg";
         img.setAttribute('width','35px');
         img.setAttribute('height','35px');
         newDiv.appendChild(img);
@@ -393,7 +393,7 @@ function showfunction(){
 
 
         img = document.createElement('img');
-        img.src ="/Images/Shop/Products/"+PartsfieldsSelectedValue+"/"+ModelfieldsSelectedValue+"/"+i+".png";
+        img.src ="/MDP/Images/Shop/Products/"+PartsfieldsSelectedValue+"/"+ModelfieldsSelectedValue+"/"+i+".png";
         img.setAttribute('width','190px');
         img.setAttribute('height','200px');
         newDiv.appendChild(img);
