@@ -36,7 +36,7 @@ function Move(j)
 
 function ChangeSrc() {
  
-       document.getElementById("Middle").src ="/Images/Contacts/"+i+".jpg";
+       document.getElementById("Middle").src ="/MDP/Images/Contacts/"+i+".jpg";
        if(i==9){
         i=1;
        }
