@@ -116,7 +116,7 @@ function showfunction(){
         newDiv.appendChild(button);
     
         img = document.createElement('img');
-        img.src ="/Images/Shop/delete.png";
+        img.src ="/MDP/Images/Shop/delete.png";
         img.setAttribute('width','20px');
         img.setAttribute('height','20px');
         img.setAttribute('id',i);     
