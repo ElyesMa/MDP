@@ -120,7 +120,7 @@ document.getElementById("Station").href="/Station.html";
 document.getElementById("Station").style.color="green";
 document.getElementById("Contact Us").href="/Contacts.html";
 document.getElementById("Contact Us").style.color="green";
-document.getElementById("logo").src ="/Images/Menu/Logo2.png";
+document.getElementById("logo").src ="/MDP/Images/Menu/Logo2.png";
 
 document.getElementById("Lien1").removeAttribute("onmousedown");
 document.getElementById("Lien2").removeAttribute("onmousedown");
@@ -150,7 +150,7 @@ addEventListener('keypress', event => {
       document.getElementById("Station").style.color="green";
       document.getElementById("Contact Us").href="/Contacts.html";
       document.getElementById("Contact Us").style.color="green";
-      document.getElementById("logo").src ="/Images/Menu/Logo2.png";
+      document.getElementById("logo").src ="/MDP/Images/Menu/Logo2.png";
       
       document.getElementById("Lien1").removeAttribute("onmousedown");
       document.getElementById("Lien2").removeAttribute("onmousedown");
