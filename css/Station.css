@@ -140,19 +140,19 @@ body {
   color: black;
 }
 .one {
-  background-image: url("/Images/Station/BI.jpg");
+  background-image: url("/MDP/Images/Station/BI.jpg");
 }
 .two {
-  background-image: url("/Images/Station/BI2.jpg");
+  background-image: url("/MDP/Images/Station/BI2.jpg");
 }
 .three {
-  background-image: url("/Images/Station/BI3.jpg");
+  background-image: url("/MDP/Images/Station/BI3.jpg");
 }
 .for {
-    background-image: url("/Images/Station/BI4.jpg");
+    background-image: url("/MDP/Images/Station/BI4.jpg");
 }
 .five {
-    background-image: url("/Images/Station/BI5.jpg");
+    background-image: url("/MDP/Images/Station/BI5.jpg");
 }
     
 
