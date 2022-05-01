@@ -96,8 +96,6 @@ function Tap() {
    z++;
    }
 
-   console.log(string.length);
-   console.log(str.length);
 }
 
 var i=2;
