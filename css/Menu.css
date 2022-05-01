@@ -10,7 +10,7 @@
     margin-top: 10px;
     width: 1400px;
     height: 1100px;
-    background-image: url("/Images/Menu/BI.png");
+    background-image: url("/MDP/Images/Menu/BI.png");
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -39,7 +39,7 @@
 .bubble{   
     display: flex;
     flex-direction: column;
-    background-image: url("/Images/Menu/bubble.png");
+    background-image: url("/MDP/Images/Menu/bubble.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 230px;
