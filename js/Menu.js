@@ -112,13 +112,13 @@ myAudio2.volume = 0.5;
 myAudio2.play(); 
 alert("WELL DONE , LINKS ARE ACTIVATED");
 
-document.getElementById("About US").href="/About US.html";
+document.getElementById("About US").href="/MDP/About US.html";
 document.getElementById("About US").style.color="green";
-document.getElementById("Shop").href="/Shop.html";
+document.getElementById("Shop").href="/MDP/Shop.html";
 document.getElementById("Shop").style.color="green";
-document.getElementById("Station").href="/Station.html";
+document.getElementById("Station").href="/MDP/Station.html";
 document.getElementById("Station").style.color="green";
-document.getElementById("Contact Us").href="/Contacts.html";
+document.getElementById("Contact Us").href="/MDP/Contacts.html";
 document.getElementById("Contact Us").style.color="green";
 document.getElementById("logo").src ="/MDP/Images/Menu/Logo2.png";
 
@@ -142,13 +142,13 @@ addEventListener('keypress', event => {
       myAudio2.play(); 
       alert("WELL DONE , LINKS ARE ACTIVATED");
 
-      document.getElementById("About US").href="/About US.html";
+      document.getElementById("About US").href="/MDP/About US.html";
       document.getElementById("About US").style.color="green";
-      document.getElementById("Shop").href="/Shop.html";
+      document.getElementById("Shop").href="/MDP/Shop.html";
       document.getElementById("Shop").style.color="green";
-      document.getElementById("Station").href="/Station.html";
+      document.getElementById("Station").href="/MDP/Station.html";
       document.getElementById("Station").style.color="green";
-      document.getElementById("Contact Us").href="/Contacts.html";
+      document.getElementById("Contact Us").href="/MDP/Contacts.html";
       document.getElementById("Contact Us").style.color="green";
       document.getElementById("logo").src ="/MDP/Images/Menu/Logo2.png";
       
